@@ -1,0 +1,38 @@
+Clients API server started on: 3000
+
+
+  Clients API
+    InsertClient
+      √ HTTP Created - 201 (2172ms)
+      √ HTTP Conflict - 409
+    GetAllClients
+      √ HTTP OK - 200
+    GetClientByCPF
+      √ HTTP OK - 200
+      √ HTTP No Content - 204
+    UpdateClient
+      √ HTTP OK - 200
+      √ HTTP Not Found - 404
+      √ HTTP Conflict - 409
+    RemoveClient
+      √ HTTP OK - 200
+      √ HTTP Not Found - 404
+
+  Clients API - Phones
+    InsertPhone
+      √ HTTP Created - 201 (102ms)
+    GetAllPhonesFromClient
+      √ HTTP OK - 200
+    GetPhoneById
+      √ HTTP OK - 200
+      √ HTTP No Content - 204
+    UpdatePhone
+      √ HTTP OK - 200
+      √ HTTP Not Found - 404
+    RemovePhone
+      √ HTTP OK - 200
+      √ HTTP Not Found - 404
+
+
+  18 passing (2s)
+
